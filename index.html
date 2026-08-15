@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#000000">
+  <title>Grécia Antiga — Religião e Filosofia Grega</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main id="apresentacao" class="apresentacao">
+    <section class="slide ativo"><img src="01.jpg" alt="Slide 01" draggable="false"></section>
+    <section class="slide"><img src="02.jpg" alt="Slide 02" draggable="false"></section>
+    <section class="slide"><img src="03.jpg" alt="Slide 03" draggable="false"></section>
+    <section class="slide"><img src="04.jpg" alt="Slide 04" draggable="false"></section>
+    <section class="slide"><img src="05.jpg" alt="Slide 05" draggable="false"></section>
+    <section class="slide"><img src="06.jpg" alt="Slide 06" draggable="false"></section>
+    <section class="slide"><img src="07.jpg" alt="Slide 07" draggable="false"></section>
+    <section class="slide"><img src="08.jpg" alt="Slide 08" draggable="false"></section>
+    <section class="slide"><img src="09.jpg" alt="Slide 09" draggable="false"></section>
+    <section class="slide"><img src="10.jpg" alt="Slide 10" draggable="false"></section>
+    <section class="slide"><img src="11.jpg" alt="Slide 11" draggable="false"></section>
+    <section class="slide"><img src="12.jpg" alt="Slide 12" draggable="false"></section>
+    <section class="slide"><img src="13.jpg" alt="Slide 13" draggable="false"></section>
+
+    <section class="slide slide-clicavel" id="slide14" title="Clique para continuar">
+      <img src="14.jpg" alt="Slide 14" draggable="false">
+    </section>
+
+    <section class="slide slide-clicavel" id="slide15" title="Clique para assistir ao vídeo">
+      <img src="15.jpg" alt="Slide 15" draggable="false">
+    </section>
+
+    <button id="anterior" class="seta anterior" type="button" aria-label="Slide anterior" title="Slide anterior">❮</button>
+    <button id="proximo" class="seta proximo" type="button" aria-label="Próximo slide" title="Próximo slide">❯</button>
+    <button id="fullscreen" class="fullscreen" type="button" aria-label="Ativar tela cheia" title="Tela cheia">⛶</button>
+
+    <div id="contador" class="contador" aria-live="polite">
+      <span id="numeroAtual">1</span><span>/</span><span id="totalSlides">15</span>
+    </div>
+
+    <nav id="indicadores" class="indicadores" aria-label="Navegação entre slides"></nav>
+
+    <div id="ajuda" class="ajuda">Use ← → ou deslize para navegar</div>
+  </main>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
